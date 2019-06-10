@@ -331,7 +331,7 @@ int main( int argc, const char ** argv )
 		exit(0);
 	}
 
-	FILE* fp = fopen( "resources/dream.xml", "r" );
+	FILE* fp = fopen( ("..//resources//dream.xml"), "wr" );
 	if ( !fp ) {
 		printf( "Error opening test file 'dream.xml'.\n"
 				"Is your working directory the same as where \n"
